@@ -96,7 +96,7 @@ header .nav-menu {
   align-items: center;
 }
 
-header .nav-menu a {
+header .nav-menu a.nav {
   text-decoration: none;
   text-transform: uppercase;
   font-family: var(--mainFont-family);
@@ -106,7 +106,7 @@ header .nav-menu a {
   position: relative;
 }
 
-header .nav-menu a::after {
+header .nav-menu a.nav::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -117,7 +117,7 @@ header .nav-menu a::after {
   transition: 0.4s ease-in-out;
 }
 
-header .nav-menu a:hover::after {
+header .nav-menu a.nav:hover::after {
   left: 0;
   width: 100%;
 }
