@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneBitMusic</title>
+    <!-- Link de icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Link de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Estilização -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="backStart">
+        <a href="#"><i class="fa-solid fa-angle-left fa-rotate-90"></i></a>
+    </div>
+    <header >
+        <div class="container-header">
+            <div class="overlay"></div>
+            <div class="oneBitCode-logo">
+                <img src="imagens/onebitcode.png" alt="oneBitCode" id="logo1" >
+                <img src="imagens/Caminho 177.png" alt="oneBitCodeLogo" id="logo-2">
+            </div>
+            <div class="nav-menu">
+                <div class="btn-mobile"></div>
+                <a href="#">início</a>
+                <a href="#artists">Artistas</a>
+                <a href="#programing">Programação</a>
+                <a href="#contact">Contato</a>
+                <button href="#" class="buyTicket-btn">Comprar ingressos</button>
+            </div>
+            <div class="btn-mobile"></div>
+        </div> 
+       
+    </header>
+
+    <main>
+        <section class="container-home">
+            <div class="home" id="home">
+                <div class="home-text" >
+                    <p>A Sua Melhor Experiência</p>
+                    <span>Musical Digital</span>
+                </div>
+                <p>Prepare-se para uma experiência incrível e envolvente, onde a arte se une à performance para criar momentos inesquecíveis. Nossos shows artísticos são projetados para encantar, inspirar e transportar você para um mundo de criatividade e expressão.</p>
+                <div class="home-buttons">
+                    <button>Começar</button>
+                    <div>
+                        <i class="fa-sharp fa-regular fa-circle-play"></i>
+                        <span>Assistir Vídeo</span>
+                    </div>
+                </div>
+               <!--  <div class="timeCounter">
+                    <span>5d   2h   26m   12s</span>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="about-us" >
+            <div>
+                <div class="img-about-us " >
+                   <img src="imagens/Images.png" >
+                </div>
+                <div class="info-about-us " >
+                    <h4>Sobre a gente</h4>
+                    <p>Na onebitmusic, estamos redefinindo a maneira como experimentamos e nos envolvemos com a música, utilizando tecnologia de realidade virtual (VR) para criar shows e performances que transcendem os limites físicos e levam você a novos patamares de entretenimento musical.</p>
+                    <button>
+                        <span>Ler mais</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="artists" id="artists">  
+            <div>
+                <div class="info-artists">
+                    <h4>Artistas</h4>
+                    <p>No evento da OneBitMusic, você terá a oportunidade de desfrutar de uma incrível variedade de artistas talentosos. Nossa seleção musical abrange diferentes gêneros e estilos, garantindo uma experiência musical diversificada e emocionante. De DJs renomados a bandas cativantes, cada artista traz sua paixão e habilidade para criar performances envolventes. Prepare-se para se surpreender com músicas cativantes, ritmos vibrantes e momentos emocionantes durante todo o evento. Os artistas da OneBitMusic estão prontos para levar você a uma jornada musical única e inesquecível.</p>
+                    <button>
+                        <span>Veja a lista completa</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="artists-img" >
+                   <div>
+                        <div class="artist1"></div>
+                        <div class="artist2"></div>
+                   </div>
+                   <div>
+                        <div class="artist3"></div>
+                        <div class="artist4"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="programing" id="programing">
+            <div >
+                <div class="cointainer-programing">
+                    <h4>Nossa programação</h4>
+                    <div>
+                        <div class="date-programing selectDay1">
+                            <h5>Dia 01</h5>
+                            <span>23 de Setembro</span>
+                        </div>
+                        <div class="date-programing selectDay2">
+                            <h5>Dia 02</h5>
+                            <span>24 de Setembro</span>
+                        </div>
+                        <div class="date-programing selectDay3">
+                            <h5>Dia 03</h5>
+                            <span>25 de Setembro</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cointainer-programing-2 ">
+                    <div class="details-programing">
+                        <span>Hora</span>
+                        <span>Conteúdo</span>
+                        <span>Artistas</span>
+                    </div>
+
+                    <div class="container-details-programing day1">
+                        <span>11:00 AM to 12:00 PM</span>
+                        <p>Desfrute de uma performance emocionante com Yui Ronald, um artista solo que encanta o público com sua voz cativante e letras inspiradoras. Prepare-se para uma noite de músicas envolventes e momentos emocionantes. </p>
+                        <div class="details-artist">
+                            <div>
+                                <img src="imagens/yuri.png">
+                                <div>
+                                    <h5>Yui Ronald</h5>
+                                    <span>Booth: 2F12</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status">
+                            <span>Prévia</span>
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="container-details-programing day1">
+                        <span>12:00 PM to 03:00 PM</span>
+                        <p>O trio que vai levar você a uma jornada musical com suas harmonias vocais encantadoras e arranjos instrumentais cativantes. Prepare-se para desfrutar de um repertório diversificado que abrange diversos estilos musicais e emocione seus sentidos.</p>
+                        <div class="details-artist">
+                            <div>
+                                <img src="imagens/bob.png">
+                                <div>
+                                    <h5>Bob John</h5>
+                                    <span>Booth: 3G12</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="imagens/yuri.png">
+                                <div>
+                                    <h5>Yui Ronald</h5>
+                                    <span>Booth: 2F12</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="imagens/emma.png">
+                                <div>
+                                    <h5>Emma Satoshi</h5>
+                                    <span>Booth: 2A35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status watch">
+                            <span class="status">Ao vivo</span>
+                            <i class="fa-sharp fa-solid fa-video"></i>
+                        </div>
+                        </div>
+
+                        <div class="container-details-programing lastBorder day1">
+                            <span>03:00 PM to 04:00 PM</span>
+                            <p>A dupla que vai conquistar seu coração com sua música cativante e performances cheias de energia. Com sua sintonia perfeita e talento extraordinário, eles criarão um ambiente envolvente e contagiarão o público com seu estilo musical único. </p>
+                            <div class="details-artist">
+                                <div>
+                                    <img src="imagens/sasha.png">
+                                    <div>
+                                        <h5>Sasha Jackson</h5>
+                                        <span>Booth: 2F18</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="imagens/diana.png">
+                                    <div>
+                                        <h5>Diana Brock</h5>
+                                        <span>Booth: 2F24</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <span>Em breve</span>
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+
+                        <!-- --------------------------------------------------------- -->
+                        <div class="container-details-programing day2">
+                            <span>11:00 AM to 12:00 PM</span>
+                            <p>Preparem-se para a dupla do momento, Iguinho e Lulinha. A dupla que vai fazer você beber até chorar lembrando do amor, "Mande o sinal para dizer que tá bem ! "</p>
+                            <div class="details-artist">
+                                <div>
+                                    <img src="imagens/Iguinho e lulinha.jpg" style="border-radius: 50%;">
+                                    <div>
+                                        <h5>Iguinho e Lulinha</h5>
+                                        <span>Booth: 2S26</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <span>Em breve</span>
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+    
+                        <div class="container-details-programing day2">
+                            <span>12:00 PM to 03:00 PM</span>
+                            <p>Nesse segundo dia de oneBitMusic, prepare-se ! Esses dois cantores vão fazer você bater palmas com os chifres, porque as mãos vão estar ocupadas segurando a bebida. </p>
+                            <div class="details-artist">
+                                <div>
+                                    <img src="imagens/tarcisio-do-acordeon.jpg" style="border-radius: 50%;">
+                                    <div>
+                                        <h5>Tarcisio do Acordeon</h5>
+                                        <span>Booth: 3T69</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="imagens/ericland.jpg" style="border-radius: 50%;">
+                                    <div>
+                                        <h5>Eric Land</h5>
+                                        <span>Booth: 2F4A</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <span>Em breve</span>
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            </div>
+    
+                            <div class="container-details-programing lastBorder day2">
+                                <span>03:00 PM to 04:00 PM</span>
+                                <p>A dupla que vai conquistar seu coração com sua música cativante e performances cheias de energia. Com sua sintonia perfeita e talento extraordinário, eles criarão um ambiente envolvente e contagiarão o público com seu estilo musical único. </p>
+                                <div class="details-artist">
+                                    <div>
+                                        <img src="imagens/joãogomes.jpg" style="border-radius: 50%;">
+                                        <div>
+                                            <h5>João Gomes</h5>
+                                            <span>Booth: 2F18</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="imagens/AnaCastela.jpg" style="border-radius: 50%;">
+                                        <div>
+                                            <h5>Ana Castela</h5>
+                                            <span>Booth: 2F24</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="status">
+                                    <span>Em breve</span>
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                            </div>
+
+                            <div class="container-details-programing day3">
+                                <span>11:00 AM to 12:00 PM</span>
+                                <p>Para abrir o úultimo dia de show, nada melhor melhor que contar com uma das maiores lendas da música. Roberto Carlos irá encantar e reencatar gerações ! </p>
+                                <div class="details-artist">
+                                    <div>
+                                        <img src="imagens/Roberto Carlos.jpg" style="border-radius: 50%;">
+                                        <div>
+                                            <h5>Roberto Carlos</h5>
+                                            <span>Booth: 2S56</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="status">
+                                    <span>Em breve</span>
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                            </div>
+        
+                            <div class="container-details-programing day3">
+                                <span>12:00 PM to 03:00 PM</span>
+                                <p>Prepare-se para a diversidade musical do segundo dia de oneBitMusic, com a energia desses talentos da música brasileira. </p>
+                                <div class="details-artist">
+                                    <div>
+                                        <img src="imagens/Thiaguinho.jpg" style="border-radius: 50%;">
+                                        <div>
+                                            <h5>Thiaguinho</h5>
+                                            <span>Booth: 3A69</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="imagens/raimundos.jpg" style="border-radius: 50%;">
+                                        <div>
+                                            <h5>Raimundos</h5>
+                                            <span>Booth: 4F4A</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="status">
+                                    <span>Em breve</span>
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                                </div>
+        
+                                <div class="container-details-programing lastBorder day3">
+                                    <span>03:00 PM to 04:00 PM</span>
+                                    <p>Para fechar a programação do evento mais esperado do ano, três grandes atraões da música popular brasileira ! </p>
+                                    <div class="details-artist">
+                                        <div>
+                                            <img src="imagens/WesleySafadão.jpg" style="border-radius: 50%;">
+                                            <div>
+                                                <h5>Wesley Safadão</h5>
+                                                <span>Booth: 2G28</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img src="imagens/alok.jpg" style="border-radius: 50%;">
+                                            <div>
+                                                <h5>Alok</h5>
+                                                <span>Booth: 2F18</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img src="imagens/djavan.jpg" style="border-radius: 50%;">
+                                            <div>
+                                                <h5>Djavan</h5>
+                                                <span>Booth: 2M24</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="status">
+                                        <span>Em breve</span>
+                                         <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------------------------------------------------ -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tickets">
+            <div>
+                <h1>Escolha o tipo de ingresso</h1>
+                <div class="tickets-cards">
+                    <div class="ticket-basico">
+                        <h4>Básico</h4>
+                        <h2>R$100</h2>
+                        <span>Acesso aos shows digitais</span>
+                        <span>Experiência musical imersiva</span>
+                        <span>Experiência musical imersiva</span>
+                        <button class="button-basico">Saber Mais</button>
+                    </div>
+                    <div class="ticket-padrao">
+                        <h4>Padrão</h4>
+                        <h2>R$150</h2>
+                        <span>Acesso aos shows digitais</span>
+                        <span>Benefícios extras</span>
+                        <span>Possibilidade de interagir com os artistas</span>
+                        <button class="button-padrao">Saber Mais</button>
+                    </div>
+                    <div class="ticket-vip">
+                        <h4>VIP</h4>
+                        <h2>R$200</h2>
+                        <span>Acesso aos shows digitais</span>
+                        <span>Vantagens adicionais</span>
+                        <span>Experiência VIP</span>
+                        <button class="button-vip">Saber Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="investor">
+            <div>
+                <h4>Nossos Investidores</h4>
+                <div class="investor-imgs">
+                    <img src="imagens/Google.png" alt="google">
+                    <img src="imagens/Microsoft.png" alt="microsoft">
+                    <img src="imagens/Airbnb.png" alt="airbnb">
+                    <img src="imagens/Axure.png" alt="axure">
+                    <img src="imagens/Apple.png" alt="apple">
+                    <img src="imagens/Facebook.png" alt="facebook">
+                    <img src="imagens/Nokia.png" alt="nokia">
+                    <img src="imagens/oracle.png" alt="oracle">
+                </div>
+                <button>Se torne um investidor</button>
+            </div>
+        </section>
+
+        <section class="reports">
+            <div class="report-card-container">
+                <h1>Relatos</h1>
+                <button class="arrow-left"><i class="fa-sharp fa-solid fa-chevron-down fa-rotate-90"></i></button>
+                <button class="arrow-right"><i class="fa-sharp fa-solid fa-chevron-down fa-rotate-270"></i></button>
+                <div class="reports-card active">
+                    <img src="imagens/relato2.png" >
+                    <div class="report-text">
+                        <i class="fa-solid fa-quote-left aspas1" ></i>
+                        <p></i>Através dos shows digitais e da tecnologia de realidade virtual da OneBitMusic, pude mergulhar em um universo musical fascinante. Os visuais deslumbrantes, a qualidade do áudio e a interatividade oferecida pela plataforma me deixaram maravilhado. A OneBitMusic realmente entende como proporcionar experiências musicais únicas e memoráveis.</p>
+                        <i class="fa-solid fa-quote-right aspas2"></i>
+                    </div>
+                    <div class="report-person">
+                        <h4>Carlos</h4>
+                        <span>Rio de Janeiro</span>
+                    </div> 
+                </div>
+
+                <div class="reports-card ">
+                    <img src="imagens/reports3.png" >
+                    <div class="report-text">
+                        <i class="fa-solid fa-quote-left aspas1" ></i>
+                        <p>A OneBitMusic não apenas me ofereceu uma plataforma para desfrutar de shows digitais envolventes, mas também me apresentou a artistas independentes incríveis. Através da plataforma, descobri músicos talentosos e me conectei com uma comunidade de amantes da música que compartilham interesses semelhantes. Estou impressionada com o compromisso da marca em valorizar a diversidade e a liberdade artística.</p>
+                        <i class="fa-solid fa-quote-right aspas2"></i>
+                    </div>
+                    <div class="report-person">
+                        <h4>Ana</h4>
+                        <span>São Paulo</span>
+                    </div>
+                    
+                </div>
+
+                <div class="reports-card">
+                    <img src="imagens/reports1.png" >
+                    <div class="report-text">
+                        <i class="fa-solid fa-quote-left aspas1" ></i>
+                        <p>Eu fui apresentada à OneBitMusic por um amigo e decidi experimentar um dos seus shows digitais. A imersão proporcionada pela realidade virtual me fez sentir como se estivesse realmente presente no palco, cercada pelos artistas e envolvida pela música. Foi uma experiência única e emocionante que certamente vou repetir. A OneBitMusic está revolucionando a forma como vivenciamos os shows artísticos.</p>
+                        <i class="fa-solid fa-quote-right aspas2"></i>
+                    </div>
+                    <div class="report-person">
+                        <h4>Sofia</h4>
+                        <span>Lisboa</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-info">
+                <h2>Nos contate</h2>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span> +55 99823-3232</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contato@onebitmusic.com</span>
+                </div>
+
+                <img src="imagens/bolasContato.png">
+            </div>
+
+
+            <div class="form">
+                <h2>Preencha com seus dados</h2>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <input type="text" id="mensagem">
+                </div>
+
+                <button type="submit"> Enviar</button>
+                <img src="imagens/imagemForm.png" >
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div class="oneBitCode-logo">
+                <img src="imagens/onebitcode.png" alt="oneBitCode" id="logo1" >
+                <img src="imagens/Caminho 177.png" alt="oneBitCodeLogo" id="logo-2">
+            </div>
+    
+            <div class="footer-social">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <span>© onebitcode.com 2023</span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
